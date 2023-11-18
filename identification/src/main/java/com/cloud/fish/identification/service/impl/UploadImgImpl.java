@@ -22,13 +22,13 @@ import java.util.List;
 @Slf4j
 public class UploadImgImpl implements UploadImg {
 
-    private static final String ALGORITHM_PATH = "C:\\fish\\鱼类识别算法0530";
-    //        private static final String ALGORITHM_PATH = "D:\\code\\鱼类识别\\鱼类识别算法0530";
+    private static final String ALGORITHM_PATH = "";
+
     private static final String IMG_PATH = ALGORITHM_PATH + "\\detect\\images";
     private static final String ALGORITHM_COMMAND = "python " + ALGORITHM_PATH + "\\detect\\detect.py --save-txt --save-conf";
-    private static final String EXCEL_PATH = ALGORITHM_PATH + "\\中文名—拉丁名对照.xlsx";
-    private static final String NGINX_PATH = "C:\\nginx-1.24.0\\html\\static";
-    private static final String NGINX_IMG = "https://45qh272309.goho.co/static/";
+    private static final String EXCEL_PATH = ALGORITHM_PATH + "";
+    private static final String NGINX_PATH = "";
+    private static final String NGINX_IMG = "";
     private static final String FISH_EXCEL = "fish-list";
 
     @Resource
