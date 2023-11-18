@@ -1,0 +1,5 @@
+# Project exclude paths
+/common/target/
+/gateway/target/
+/identification/target/
+/third-party/target/

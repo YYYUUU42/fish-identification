@@ -1,0 +1,28 @@
+server:
+  port: 6001
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 5000ms
+    password: root
+    lettuce:
+      pool:
+        max-idle: 50
+        max-wait: -1
+        max-active: 50
+        min-idle: 1
+  servlet:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 150MB
+
+wx:
+  mp:
+    app-id: wxc40ce1ec5618b5b7
+    secret: 9e82dbdae059a8006af0138549d7f86d
+    
