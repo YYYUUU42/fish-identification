@@ -21,8 +21,4 @@ spring:
       max-file-size: 150MB
       max-request-size: 150MB
 
-wx:
-  mp:
-    app-id: wxc40ce1ec5618b5b7
-    secret: 9e82dbdae059a8006af0138549d7f86d
     
